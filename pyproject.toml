@@ -1,0 +1,14 @@
+[project]
+name = "nodra-mcp"
+version = "0.1.0"
+description = "This is a package for the Nodra MCP ( Model Context Protocol) that integrates with various data sources and tools."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.0.4",
+    "colorama>=0.4.6",
+    "mcp[cli]>=1.6.0",
+    "uvicorn>=0.34.2",
+]
+
+
